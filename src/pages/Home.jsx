@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* Featured Destinations Section */}
-      <section className="destinations-section" id="destinations">
+      <section className="destinations-section" id="destination">
         <div className="destinations-container">
           <div className="destinations-header">
             <span className="destinations-subtitle">FEATURED GETAWAYS</span>
