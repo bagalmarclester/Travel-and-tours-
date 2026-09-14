@@ -24,12 +24,14 @@ const WHY_US_ITEMS = [
   }
 ]
 
+const BASE_URL = import.meta.env.BASE_URL
+
 const FEATURED_DESTINATIONS = [
   {
     id: 1,
     title: 'El Nido Lagoon Expedition',
     location: 'Palawan, Philippines',
-    image: '/destinations/palawan.jpg',
+    image: `${BASE_URL}destinations/palawan.jpg`,
     duration: '4D3N Tour',
     price: '₱8,499',
     rating: '4.9',
@@ -39,7 +41,7 @@ const FEATURED_DESTINATIONS = [
     id: 2,
     title: 'Boracay Sunset & Sands',
     location: 'Aklan, Philippines',
-    image: '/destinations/boracay.jpg',
+    image: `${BASE_URL}destinations/boracay.jpg`,
     duration: '3D2N Tour',
     price: '₱6,999',
     rating: '4.8',
@@ -49,7 +51,7 @@ const FEATURED_DESTINATIONS = [
     id: 3,
     title: 'Batanes Rolling Hills & Heritage',
     location: 'Batanes, Philippines',
-    image: '/destinations/batanes.jpg',
+    image: `${BASE_URL}destinations/batanes.jpg`,
     duration: '4D3N Tour',
     price: '₱12,500',
     rating: '5.0',
@@ -59,7 +61,7 @@ const FEATURED_DESTINATIONS = [
     id: 4,
     title: 'Siargao Surf & Lagoon Escape',
     location: 'Surigao del Norte, Philippines',
-    image: '/destinations/siargao.jpg',
+    image: `${BASE_URL}destinations/siargao.jpg`,
     duration: '3D2N Tour',
     price: '₱7,899',
     rating: '4.9',
