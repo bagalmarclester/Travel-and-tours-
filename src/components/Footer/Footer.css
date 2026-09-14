@@ -75,28 +75,8 @@
   font-size: 0.95rem;
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.75rem;
   max-width: 380px;
-}
-
-.footer-accreditation {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: rgba(2, 132, 199, 0.12);
-  border: 1px solid rgba(2, 132, 199, 0.25);
-  color: #38bdf8;
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 0.45rem 0.85rem;
-  border-radius: var(--radius-full);
-  margin-bottom: 1.5rem;
-  width: fit-content;
-}
-
-.footer-accreditation .accreditation-icon {
-  flex-shrink: 0;
-  color: #38bdf8;
 }
 
 .footer-social-links {

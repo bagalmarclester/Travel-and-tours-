@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, ArrowUpRight, ShieldCheck, Globe } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, ArrowUpRight, Globe } from 'lucide-react'
 import logoImg from '../../assets/logo.png'
 import './Footer.css'
 
@@ -20,10 +20,6 @@ export default function Footer() {
             <p className="footer-brand-desc">
               Your trusted partner for memorable travel adventures. We curate extraordinary, safe, and affordable tour packages across the Philippine islands and worldwide destinations.
             </p>
-            <div className="footer-accreditation">
-              <ShieldCheck size={18} className="accreditation-icon" aria-hidden="true" />
-              <span>DOT-Accredited Tour Operator</span>
-            </div>
             <div className="footer-social-links" aria-label="Social Media Links">
               <a href="#facebook" className="social-link" aria-label="Facebook">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
