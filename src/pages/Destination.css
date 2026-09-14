@@ -1,0 +1,15 @@
+/* ==========================================================================
+   Destination Page Styles
+   ========================================================================== */
+
+.page-destination {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.page-destination h1 {
+  font-size: 2rem;
+  color: var(--color-primary);
+  font-weight: 700;
+}
