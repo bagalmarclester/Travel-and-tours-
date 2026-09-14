@@ -1,5 +1,7 @@
 # React + Vite
 
+PERSONAL PROJECT 
+Its more like a adwebsite for travel and tourss
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
